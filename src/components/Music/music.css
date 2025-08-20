@@ -16,7 +16,8 @@
   box-shadow: 1px 1px 8px 2px lightgray;
   font-family: "Milonga";
   font-family: "Kleymisska";
-  border-radius: 25px;
+  border-radius: 100px;
+  /* 25px; */
 }
 
 .buttonSong {
