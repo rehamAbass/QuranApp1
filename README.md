@@ -9,6 +9,9 @@ In the project directory, you can run:
 
 # `npm start`
 
+
+<img width="1648" height="883" alt="image" src="https://github.com/user-attachments/assets/ff88f501-b916-4084-90b6-e16c8ef95501" />
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ![image](https://user-images.githubusercontent.com/42107725/206272008-9e1d1cb9-2881-42cf-a2d2-1a6dd279d933.png)
