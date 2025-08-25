@@ -2,22 +2,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Kleymisska");
 
 .allSongsDiv {
-  margin: 40px 40px;
+  margin: 50px 50px;
   padding: 40px;
   display: grid;
   width: max-width;
   min-width: max-content;
-  grid-template-columns: 0.7fr 0.7fr 0.7fr 0.7fr;
+  grid-template-columns: 0.7fr 0.7fr 0.7fr;
+  align-items: center;
+  /* background-color: #023f2b; */
   align-items: flex-start;
   justify-content: center;
-  background-color: #2d5500b8;
-  /* #00551fab; */
-  color: white;
-  box-shadow: 1px 1px 8px 2px lightgray;
-  font-family: "Milonga";
-  font-family: "Kleymisska";
+  color: rgb(230, 255, 213);
+  box-shadow: 1px 10px 24px 4px rgba(0, 0, 0, 0.7);
+  /* font-family: "Milonga";
+  font-family: "Kleymisska"; */
+  font-size: xx-large;
   border-radius: 100px;
-  /* 25px; */
+
+  background: linear-gradient(
+    270deg,
+    rgb(25, 118, 172) 0,
+    #049162 60%,
+    rgb(0, 117, 53) 90%
+  );
 }
 
 .buttonSong {
@@ -53,7 +60,7 @@
   font-size: large;
   font-family: cursive;
   font-style: italic;
-  box-shadow: 1px 1px 1px 1px rgba(86, 102, 244, 0.543);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.543);
   min-width: max-content;
   border-radius: 5%;
 }
@@ -67,8 +74,14 @@
   .allSongsDiv {
     grid-template-columns: 0.7fr 0.7fr 0.7fr;
     align-items: center;
-    background-color: #2d5500b8;
-    /* #044b1ec7; */
-    margin: 20px 20px;
+    margin: 7%;
+    /* //40px 30px; */
+    padding: 15px;
+    background: linear-gradient(
+      270deg,
+      rgba(68, 93, 100, 0.8) 10%,
+      rgb(30, 97, 75, 0.8) 60%,
+      rgb(0, 117, 53, 0.8) 90%
+    );
   }
 }

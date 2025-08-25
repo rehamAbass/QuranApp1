@@ -8,12 +8,11 @@ const Header = () => {
         <header
             className="headerMarq"
         >
-            <marquee direction='left' loop='2'>  Developed by
+            <marquee direction='right' loop='2'>  Developed by
                 <a
                     href="https://www.linkedin.com/in/rehamAbass/"
                     target='_blank'
-                >💪  Dev. Reham Abass  </a>
-                &copy; 2022
+                >رهام عباس  💪  Dev. Reham Abass   &copy; 2025  </a>
             </marquee>
         </header>
     )

@@ -10,9 +10,25 @@ const Music = () => {
 
     //----------------------------------------------------------------------------------------
     useEffect(() => {
-        setFlags([false, false, false, false,
+        setFlags([
             false, false, false, false,
-            false, false, false, false, false])
+            false, false, false, false,
+            false, false, false, false,
+            false, false, false, false,
+            false, false, false, false,
+            false, false, false, false,
+            false, false, false, false,
+            false, false, false, false,
+            false, false, false, false,
+            false, false, false, false,
+            false, false, false, false,
+            false, false, false, false,
+            false, false, false, false,
+            false, false, false, false,
+            false, false, false, false,
+            false, false, false, false,
+            false, false, false, false,
+        ])
     }, [])
     //----------------------------------------------------------------------------------------
     const updateFlag = (id, flag) => {
@@ -27,18 +43,18 @@ const Music = () => {
     const getFlag = (id) => { return flags[id]; }
     //----------------------------------------------------------------------------------------
     return (
-        <div className='allSongsDiv'>    
-        {tracksArray.map(s => (
+        <div className='allSongsDiv'>
+            {tracksArray.map(s => (
                 <Song
                     key={s.id}
                     flag={getFlag(s.id)}
                     song={s}
                     stopOthers={stopOthers}
                     updateFlag={updateFlag}
-                /> 
+                />
             ))
             }
-           
+
         </div>
     );
 }

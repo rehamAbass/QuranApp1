@@ -17,7 +17,7 @@ a {
 
 marquee {
   display: block !important;
-  width: -webkit-fill-available;
+  /* width: -webkit-fill-available; */
   justify-content: center !important;
   align-items: center;
   justify-items: center;
@@ -28,15 +28,16 @@ marquee {
 
 .headerMarq {
   text-align: center !important;
-  margin-top: 10px;
+  margin-top: 40px;
+  margin-bottom: 80px;
   padding: 3px;
-  margin-bottom: 10px;
   display: block !important;
   justify-content: center !important;
   align-items: center;
   justify-items: center;
   align-self: center !important;
   white-space: wrap !important;
+  background-color: #a1ffe0b0;
 }
 @media screen and (max-width: 500px) {
   .headerMarq {

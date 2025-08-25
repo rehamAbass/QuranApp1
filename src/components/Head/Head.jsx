@@ -9,9 +9,9 @@ const Head = () => {
         <div className='Head'>
             {/* <h1>Swiper Carousel : </h1>
             <SwiperCarousel /> */}
-
-            <Music />
             <Carousel />
+            <Music />
+
         </div>
     )
 }
