@@ -1,0 +1,12 @@
+.Slider {
+  text-align: center !important;
+  /* background-color: rgba(197, 255, 61, 0.315) !important; */
+  margin: 40px 0;
+  max-height: 120px !important;
+}
+img {
+  border-radius: 50%;
+  max-width: 130px;
+  max-height: 130px;
+  object-fit: cover;
+}

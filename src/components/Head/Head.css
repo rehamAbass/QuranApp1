@@ -2,6 +2,10 @@
   flex-direction: row;
 }
 
+.SwiperCarousel {
+  height: 300px;
+  width: 100%;
+}
 @media screen and (max-width: 500px) {
   .Head {
     margin: 7px;
