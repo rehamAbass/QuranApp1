@@ -41,10 +41,11 @@
 @media screen and (max-width: 500px) {
   .oneSong {
     font-weight: 400;
-    margin: 30px 16px;
+    margin: 24px 16px;
     max-width: 90px;
     min-width: 65px;
     max-height: 190px;
+    padding: 5px;
   }
 
   .oneSongIcon {
