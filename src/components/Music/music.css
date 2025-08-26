@@ -11,10 +11,12 @@
   align-items: center;
   /* background-color: #023f2b; */
   background: linear-gradient(
-    270deg,
-    #1976ac,
-    #049162 60%,
-    #007535 90%
+    280deg,
+    #3aad36d2 0%,
+    #1c7180 20%,
+    #2b7965 40%,
+    #2f967c 60%,
+    #3aad36d2 90%
   ) !important;
 
   /* linear-gradient(270deg, #c6c6c6, #049162 60%, #007535 90%) !important */
