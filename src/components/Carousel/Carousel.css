@@ -19,11 +19,16 @@ img {
   border-radius: 10%;
   /* max-width: auto; */
   height: auto;
-  max-height: 200px;
+  max-height: 210px;
   object-fit: contain;
-  max-width: 300px;
+  max-width: auto;
 }
 
+@media screen and (max-width: 500px) {
+  img {
+    max-width: 370px;
+  }
+}
 .slick-prev,
 .slick-next {
   font-size: 40px;
