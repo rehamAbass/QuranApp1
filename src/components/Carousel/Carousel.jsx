@@ -21,12 +21,15 @@ export default function Carousel() {
 
     return (
         <div >
+            <div className="SliderImgs">
+                <img src={imgs[2]} alt={imgs[2]} key={0} />
+            </div>
             {/* className="w-full max-w-xl mx-auto" */}
-            <Slider className="SliderImgs" {...settings}>
+            {/* <Slider className="SliderImgs" {...settings}>
                 {imgs.map((img, index) => (
                     <img src={img} alt={img} key={index} />
                 ))}
-            </Slider>
+            </Slider> */}
 
 
             <Slider className="Slider" {...settings}>
