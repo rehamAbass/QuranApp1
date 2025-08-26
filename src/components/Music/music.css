@@ -16,10 +16,12 @@
     #049162 60%,
     #007535 90%
   ) !important;
+
+  /* linear-gradient(270deg, #c6c6c6, #049162 60%, #007535 90%) !important */
   align-items: flex-start;
   justify-content: center;
   color: rgb(200, 255, 255);
-  box-shadow: 1px 10px 24px 4px rgb(179, 123, 206);
+  box-shadow: 1px 10px 24px 4px white;
   /* font-family: "Milonga"; */
   /* font-family: "Kleymisska"; */
   font-size: large;
