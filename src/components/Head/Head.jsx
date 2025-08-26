@@ -10,7 +10,7 @@ const Head = () => {
             {/* <h1>Swiper Carousel : </h1>
             <SwiperCarousel /> */}
             <Carousel />
-            <Music />
+            {/* <Music /> */}
 
         </div>
     )

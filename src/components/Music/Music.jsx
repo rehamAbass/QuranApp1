@@ -1,11 +1,9 @@
 import './music.css'
 import React, { useEffect, useState } from 'react';
 import Song from './Song/Song';
-import tracksArray from './mySongs/tracksArray'
-
+// import tracksArray from './mySongs/tracksArray'
 //----------------------------------------------------------------------------------------
-const Music = () => {
-
+const Music = ({ arr }) => {
     const [flags, setFlags] = useState([]);
 
     //----------------------------------------------------------------------------------------
@@ -36,7 +34,7 @@ const Music = () => {
     }
     //----------------------------------------------------------------------------------------
     const stopOthers = (id) => {
-        tracksArray.map(s => (s.id !== id) ? s.audio.pause() : '');
+        arr.map(s => (s.id !== id) ? s.audio.pause() : '');
         setFlags(flags.map((s, index) => (index !== id) ? false : true))
     }
     //----------------------------------------------------------------------------------------
@@ -44,7 +42,7 @@ const Music = () => {
     //----------------------------------------------------------------------------------------
     return (
         <div className='allSongsDiv'>
-            {tracksArray.map(s => (
+            {arr?.map(s => (
                 <Song
                     key={s.id}
                     flag={getFlag(s.id)}

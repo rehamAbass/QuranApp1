@@ -2,29 +2,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Kleymisska");
 
 .allSongsDiv {
-  margin: 50px 50px;
-  padding: 40px;
+  margin: 80px 100px;
+  padding: 30px;
   display: grid;
   width: max-width;
   min-width: max-content;
-  grid-template-columns: 0.7fr 0.7fr 0.7fr;
+  grid-template-columns: 0.7fr 0.7fr 0.7fr 0.7fr;
   align-items: center;
   /* background-color: #023f2b; */
-  align-items: flex-start;
-  justify-content: center;
-  color: rgb(230, 255, 213);
-  box-shadow: 1px 10px 24px 4px rgba(0, 0, 0, 0.7);
-  /* font-family: "Milonga";
-  font-family: "Kleymisska"; */
-  font-size: xx-large;
-  border-radius: 100px;
-
   background: linear-gradient(
     270deg,
-    rgb(25, 118, 172) 0,
+    #1976ac,
     #049162 60%,
-    rgb(0, 117, 53) 90%
-  );
+    #007535 90%
+  ) !important;
+  align-items: flex-start;
+  justify-content: center;
+  color: rgb(200, 255, 255);
+  box-shadow: 1px 10px 24px 4px rgb(162, 255, 159);
+  /* font-family: "Milonga"; */
+  /* font-family: "Kleymisska"; */
+  font-size: large;
+  border-radius: 30px;
+
+  /* background-color: rgba(86, 55, 107, 0.938); */
+  /* rgba(0, 100, 80, 0.2); */
+  /* background: linear-gradient(
+    270deg,
+    rgba(0, 70, 70, 0.9) 0%,
+    rgb(30, 63, 63) 60%
+  ); */
 }
 
 .buttonSong {
@@ -74,14 +81,28 @@
   .allSongsDiv {
     grid-template-columns: 0.7fr 0.7fr 0.7fr;
     align-items: center;
-    margin: 7%;
-    /* //40px 30px; */
+    margin: 40px 30px;
     padding: 15px;
     background: linear-gradient(
+      270deg,
+      rgba(30, 80, 60, 1) 20%,
+      rgb(10, 90, 50, 1) 40%,
+      rgb(50, 80, 20, 1) 80%
+    );
+
+    /* linear-gradient(
+      270deg,
+      rgba(50, 80, 90, 1) 10%,
+      rgb(0, 100, 90, 1) 60%,
+      rgb(90, 100, 40, 1) 90%
+    ); */
+
+    border-radius: 35px;
+    /* background: linear-gradient(
       270deg,
       rgba(68, 93, 100, 0.8) 10%,
       rgb(30, 97, 75, 0.8) 60%,
       rgb(0, 117, 53, 0.8) 90%
-    );
+    ); */
   }
 }
