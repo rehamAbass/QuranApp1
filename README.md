@@ -9,15 +9,11 @@ In the project directory, you can run:
 
 # `npm start`
 
-<img width="1648" height="883" alt="image" src="https://github.com/user-attachments/assets/ff88f501-b916-4084-90b6-e16c8ef95501" />
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-![image](https://user-images.githubusercontent.com/42107725/206272008-9e1d1cb9-2881-42cf-a2d2-1a6dd279d933.png)
 
-![image](https://user-images.githubusercontent.com/42107725/187647582-9615603e-f95c-4b22-a328-b4f2404d30b5.png)
+<img width="1196" height="884" alt="image" src="https://github.com/user-attachments/assets/770bd539-76d1-4df0-a239-07dd72339e0e" />
 
-"# music-toDoList"
 "# QuranApp1" 
 "# QuranApp1" 
 "# QuranApp1" 
