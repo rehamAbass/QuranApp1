@@ -24,11 +24,55 @@ img {
   max-width: auto;
 }
 
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: 30px;
+  margin: 10px 40px;
+  padding: 0;
+  cursor: pointer;
+  font-size: 40px;
+  content: "re1";
+}
+
+.slick-dots {
+  top: 0px !important;
+  bottom: auto !important;
+}
+
+.slick-dots::after {
+  /* content: "re1, re2, re3, re4"; */
+}
+
 @media screen and (max-width: 500px) {
   img {
     max-width: 370px;
   }
 }
+
+/* .slick-active {
+  content: "re1";
+  color: yellow;
+  margin: 7px;
+  text-shadow: 2px 2px 4px black, 1px 4px 4px black, 1px 1px 4px black;
+  padding: 3px;
+  background: black;
+} */
+
+.slick-dots li button ::after {
+  /* content: attr(data-dot); */
+  color: rgb(255, 0, 0);
+  font-size: 12px;
+  line-height: 1;
+  position: absolute;
+  content: "re1";
+  margin: 7px;
+  text-shadow: 2px 2px 4px black, 1px 4px 4px black, 1px 1px 4px black;
+  padding: 3px;
+  background: black;
+}
+
 .slick-prev,
 .slick-next {
   font-size: 40px;
@@ -53,9 +97,8 @@ img {
 .slick-prev:before,
 .slick-next:before {
   font-family: "slick";
-  font-size: 60px;
+  font-size: 50px;
   line-height: 1;
   opacity: 0.8;
   color: white;
-  -webkit-font-smoothing: antialiased;
 }

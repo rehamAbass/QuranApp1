@@ -1,6 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Milonga");
 @import url("https://fonts.googleapis.com/css2?family=Kleymisska");
 
+.AfreFont {
+  font-family: "Aref Ruqaa", Arial;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: 400;
+  vertical-align: baseline;
+  text-align: center;
+  font-size: large;
+  text-shadow: 2px 2px 4px black, 1px 4px 4px black, 1px 1px 4px black;
+}
+
 .allSongsDiv {
   margin: 80px 100px;
   padding: 30px;
@@ -9,33 +20,42 @@
   min-width: max-content;
   grid-template-columns: 0.7fr 0.7fr 0.7fr 0.7fr;
   align-items: center;
-  /* background-color: #023f2b; */
+
+  text-shadow: 2px 2px 4px black, 1px 4px 4px black, 1px 1px 4px black;
+
   background: linear-gradient(
+    250deg,
+    #09ff00 0%,
+    rgb(0 145 55) 20%,
+    #13c300 40%,
+    rgb(222 193 0) 60%,
+    #09ab03 90%
+  ) !important;
+
+  /* background: linear-gradient(
     280deg,
     #3aad36d2 0%,
     #1c7180 20%,
     #2b7965 40%,
     #2f967c 60%,
     #3aad36d2 90%
-  ) !important;
+  ) !important; */
 
   /* linear-gradient(270deg, #c6c6c6, #049162 60%, #007535 90%) !important */
+
   align-items: flex-start;
   justify-content: center;
   color: rgb(200, 255, 255);
   box-shadow: 1px 10px 24px 4px white;
-  /* font-family: "Milonga"; */
-  /* font-family: "Kleymisska"; */
-  font-size: large;
   border-radius: 30px;
 
-  /* background-color: rgba(86, 55, 107, 0.938); */
-  /* rgba(0, 100, 80, 0.2); */
-  /* background: linear-gradient(
-    270deg,
-    rgba(0, 70, 70, 0.9) 0%,
-    rgb(30, 63, 63) 60%
-  ); */
+  font-family: "Aref Ruqaa", Arial;
+  /* font-style: italic; */
+  font-variant: normal;
+  font-weight: 400;
+  vertical-align: baseline;
+  text-align: center;
+  font-size: x-large;
 }
 
 .buttonSong {

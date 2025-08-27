@@ -1,8 +1,8 @@
 import Header from './components/Header/Header.jsx'
 import './App.css';
-import List from './components/ListOfCards/List.jsx'
-import AddCardButton from './components/Buttons/AddCardButton/AddCard'
 import Head from './components/Head/Head.jsx';
+import "@fontsource/aref-ruqaa"; // Defaults to weight 400
+
 //-------------------------------------------------------------
 function App() {
   // const [cards, setCards] = useState([])

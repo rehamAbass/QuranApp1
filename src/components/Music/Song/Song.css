@@ -8,16 +8,21 @@
   margin-right: 10px;
 }
 
+.AfreFont {
+  font-family: "Aref Ruqaa", Arial;
+  /* font-style: italic; */
+  font-variant: normal;
+  font-weight: 400;
+  vertical-align: baseline;
+  text-align: center;
+  font-size: large;
+}
+
 .oneSong {
   align-self: flex-start;
   align-self: flex-start;
-  /* align-content: space-around; */
   margin: 7px;
-  /* background-color: rgb(68, 150, 68); */
-  font-size: large;
-  /* font-family: "Milonga"; */
-  text-shadow: 1px 1px 1px black, 0 0 0.9em black, 0 0 0.9em black;
-  /* font-weight: 500; */
+  text-shadow: 2px 2px 4px black, 1px 4px 4px black, 1px 1px 4px black;
   padding: 3px;
 }
 

@@ -61,7 +61,7 @@ input {
   font-family: "Milonga";
   font-weight: 500;
   margin: 2px;
-  text-shadow: 1px 1px 1px black, 0 0 0.8em black, 0 0 0.2em black;
+  text-shadow: 2px 2px 4px black, 1px 4px 4px black, 1px 1px 4px black;
 }
 
 .addbtnnote {
